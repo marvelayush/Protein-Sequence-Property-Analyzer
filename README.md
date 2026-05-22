@@ -98,3 +98,20 @@ The program begins with protein sequences written in **FASTA format**.
 ```text
 >Protein_Name
 SEQUENCE
+```
+
+---
+
+### 📂 External FASTA File Support
+
+The project is not limited to hardcoded FASTA sequences only.  
+Users can also import their own external FASTA files (`.fasta`, `.fa`, `.txt`) from anywhere on their local system for analysis.
+
+This makes the project more flexible and closer to real-world bioinformatics workflows where protein datasets are usually stored as external FASTA files.
+
+#### Example File Paths
+
+```text
+C:\Users\yourname\Desktop\protein.fasta
+D:\Bioinformatics\sample.fa
+./datasets/proteins.fasta
